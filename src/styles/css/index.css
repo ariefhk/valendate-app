@@ -94,3 +94,33 @@ select {
   text-indent: 1px;
   text-overflow: "";
 }
+
+@keyframes ripple {
+  from {
+    transform: scale(0);
+    opacity: 0.6;
+  }
+  to {
+    transform: scale(4);
+    opacity: 0;
+  }
+}
+
+.animate-ripple {
+  position: absolute;
+  transform: scale(0);
+  animation: ripple 0.6s ease-out;
+  pointer-events: none; /* Prevent interfering with button clicks */
+}
+
+.custom-border {
+  border: 2px dashed transparent;
+  border-image: repeating-linear-gradient(
+      90deg,
+      #ff1493 0px,
+      #ff1493 10px,
+      transparent 10px,
+      transparent 20px
+    )
+    1;
+}
