@@ -37,7 +37,7 @@ const SectionOne: React.FC<SectionOneProps> = ({ handleNextSection }) => {
   }
 
   return (
-    <SectionContainer className="md:h-[400px] h-full">
+    <SectionContainer className="md:h-[400px] max-h-[100vh]">
       <div className="flex flex-col md:flex-row w-full h-full items-center md:items-start">
         <div className="md:w-[40%] mt-10 md:mt-16 flex  justify-center items-start  md:h-full">
           <div className="max-w-[200px] max-h-[200px] ">

@@ -14,7 +14,7 @@ const SectionContainer: React.FC<SectionContainerProps> = ({
   return (
     <div
       className={cn(
-        "md:max-h-[600px] max-h-[86vh]  h-full mx-2  md:mx-0 w-full md:max-w-[700px] rounded-[20px]  bg-white border-4 border-[#FF1493] overflow-hidden",
+        "md:max-h-[600px]  h-full mx-2  md:mx-0 w-full md:max-w-[700px] rounded-[20px]  bg-white border-4 border-[#FF1493] overflow-hidden",
         className,
       )}
       {...props}>

@@ -10,7 +10,7 @@ interface SectionFourProps {
 const SectionFour: React.FC<SectionFourProps> = ({ handleNextSection }) => {
   return (
     <SectionContainer>
-      <div className="w-full h-full flex items-center   font-inter flex-col md:p-8 p-8 pt-16 gap-y-16">
+      <div className="w-full h-full flex items-center   font-inter flex-col md:p-8 p-8 pt-16 gap-y-8">
         <div className="flex flex-col gap-5 items-center">
           <div className="flex items-center gap-3">
             <IoMdMail className="flex-shrink-0 text-pink-500 w-10 h-10" />
@@ -21,7 +21,7 @@ const SectionFour: React.FC<SectionFourProps> = ({ handleNextSection }) => {
             Dear, My love
           </TitleContainer>
         </div>
-        <span className="text-justify " onClick={handleNextSection}>
+        <span className="text-justify  " onClick={handleNextSection}>
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore
           minima consectetur molestiae laboriosam repellendus veritatis
           doloremque adipisci, libero iure consequuntur placeat ullam reiciendis
@@ -30,7 +30,7 @@ const SectionFour: React.FC<SectionFourProps> = ({ handleNextSection }) => {
           voluptatibus, harum ipsum deserunt consequuntur quo, reprehenderit
           magnam repudiandae.
         </span>
-        <div className="flex-1  h-full w-full flex justify-center items-end ">
+        <div className="flex-1  h-full w-full flex justify-center items-end  ">
           <TitleContainer
             onClick={handleNextSection}
             className="text-md inter cursor-pointer px-5 py-3 h-max w-max rounded-full text-white">
