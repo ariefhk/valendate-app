@@ -5,7 +5,7 @@ import SectionTwo from "@/components/organisms/section-two"
 import { useState } from "react"
 
 const HelloPage = () => {
-  const [showSection, setShowSection] = useState(4)
+  const [showSection, setShowSection] = useState(1)
 
   return (
     <div className="h-screen w-screen inter overflow-hidden">
