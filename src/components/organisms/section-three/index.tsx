@@ -2,7 +2,7 @@ import SectionContainer from "@/components/atoms/container/section-container"
 import TitleContainer from "@/components/atoms/container/title-container"
 import RenderList from "@/components/atoms/render-list"
 import React from "react"
-import { imageData } from "./section-three.constans"
+import { imageData } from "./section-three.constants"
 
 interface SectionThreeProps {
   handleNextSection?: () => void

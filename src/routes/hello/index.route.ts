@@ -1,20 +1,20 @@
-import HelloPage from "@/components/pages/hello-page"
+import HomePage from "@/components/pages/home-page"
 import LoveLayout from "@/components/templates/love-layout"
 import { RouteRootInterface } from "../routes"
 
-const helloRoutes: RouteRootInterface[] = [
+const homeRoutes: RouteRootInterface[] = [
   {
-    name: "hello-route",
+    name: "home-route",
     path: "/",
     component: LoveLayout,
     routes: [
       {
-        name: "hello",
+        name: "home",
         path: "/",
-        component: HelloPage,
+        component: HomePage,
       },
     ],
   },
 ]
 
-export default helloRoutes
+export default homeRoutes
