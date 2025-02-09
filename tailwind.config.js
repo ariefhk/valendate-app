@@ -5,6 +5,9 @@ module.exports = {
   theme: {
     fontFamily: {
       inter: ['"Inter"', "sans-serif"],
+      candy: ['"Emilys Candy"', "sans-serif"],
+      kalnia: ['"Kalnia"', "sans-serif"],
+      stander: ['"Grandstander"', "sans-serif"],
     },
     extend: {
       borderRadius: {
