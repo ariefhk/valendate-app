@@ -9,7 +9,7 @@ interface SectionFourProps {
 
 const SectionFour: React.FC<SectionFourProps> = ({ handleNextSection }) => {
   return (
-    <SectionContainer>
+    <SectionContainer className="h-max max-h-[100vh] w-full overflow-y-auto md:overflow-hidden ">
       <div className="w-full h-full flex items-center   font-inter flex-col md:p-8 p-8 pt-16 gap-y-8">
         <div className="flex flex-col gap-5 items-center">
           <div className="flex items-center gap-3">

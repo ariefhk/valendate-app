@@ -20,7 +20,7 @@ const SectionTwo: React.FC<SectionTwoProps> = ({ handleNextSection }) => {
   }, [])
 
   return (
-    <SectionContainer>
+    <SectionContainer className="h-max max-h-[100vh] w-full overflow-y-auto md:overflow-hidden ">
       <div className="w-full h-full flex items-center  flex-col gap-16 md:gap-8">
         <div className="flex items-center flex-col md:flex-row  h-max w-max px-20 pt-10 gap-8 md:gap-8">
           <div className="relative rounded-full w-[140px] h-[140px]  md:w-[80px] md:h-[80px] overflow-hidden  border-[4px] border-dashed border-[#FF1493]">
@@ -30,7 +30,7 @@ const SectionTwo: React.FC<SectionTwoProps> = ({ handleNextSection }) => {
               className="w-full h-full object-cover"
             />
           </div>
-          <TitleContainer className="text-xl inter px-5 py-3 rounded-full text-white">
+          <TitleContainer className="text-[18px]  px-5 py-3 rounded-full text-white">
             How long have been together?
           </TitleContainer>
         </div>

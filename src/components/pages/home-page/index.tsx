@@ -8,8 +8,8 @@ const HelloPage = () => {
   const [showSection, setShowSection] = useState(1)
 
   return (
-    <div className="h-screen w-screen inter overflow-hidden">
-      <div className=" w-full h-full flex items-center justify-center">
+    <div className="h-screen w-screen  overflow-hidden">
+      <div className=" w-full h-full flex items-center justify-center py-2 md:py-0">
         {showSection === 1 && (
           <SectionOne
             handleNextSection={() => {

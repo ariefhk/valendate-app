@@ -10,7 +10,7 @@ interface SectionThreeProps {
 
 const SectionThree: React.FC<SectionThreeProps> = ({ handleNextSection }) => {
   return (
-    <SectionContainer>
+    <SectionContainer className="h-max max-h-[100vh] md:h-full w-full overflow-y-auto md:overflow-hidden ">
       <div className="w-full h-full flex flex-col items-center gap-y-6">
         <TitleContainer className="mt-8 text-xl px-10 py-3">
           You & Me
@@ -33,7 +33,7 @@ const SectionThree: React.FC<SectionThreeProps> = ({ handleNextSection }) => {
             }}
           />
         </div>
-        <div className=" flex-1 w-full flex justify-center">
+        <div className=" flex-1 w-full flex justify-center items-end pb-8">
           <TitleContainer
             onClick={handleNextSection}
             className="text-md inter px-5 py-3 h-max w-max rounded-full text-white  hover:bg-opacity-80 transition-all duration-200 bg-[#FF1493]">
